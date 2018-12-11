@@ -12,6 +12,24 @@
 </head>
 
 <body>
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '2512021365480309',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
     <div class="container">
         <header class="main-header line">
             <div class="top">
@@ -46,17 +64,10 @@
             </section>
             
         </main>
-         <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v3.2&appId=2512021365480309&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+         
+<div class="fb-comments" data-href="https://zhebravo.github.io/lalka.github.io/fed17/" data-width="500" data-numposts="5"></div>
 
-<div class="fb-comments" data-href="https://zhebravo.github.io/lalka.github.io/fed17/" data-width="400" data-numposts="5"></div>
-        <footer class="main-footer"></footer>
+
     </div>
 </body>
 
