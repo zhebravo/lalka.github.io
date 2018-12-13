@@ -76,11 +76,22 @@ table {
   border-spacing: 0;
 }
 
+
 .line {
    outline: 1px solid red; 
 }
 
 /* header */
+body {
+
+  padding: 0;
+  margin: 0;
+}
+header {
+  background: url(../img/1255534.png) no-repeat center top / cover; 
+   
+     height: 100%; 
+}
 
 .main-header {
 
@@ -93,41 +104,21 @@ table {
   position: relative;
   height: 90px;
 }
-
-.img-logo {
-  width: 150px;
-}
-
-.header-tel {
-  color: #000;
-  font-size: 18px;
-  font-family: "Arial";
-  text-transform: uppercase;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.mail {
-  color: #000;
-  font-size: 14px;
-  font-family: "Arial";
-  text-transform: uppercase;
-  font-weight: bold;
-  cursor: pointer;
-  margin-right: 25px;
-}
-
 .logo {
   display: inline-block;
   width: 25%;
-  padding-left: 25px;
+  padding-left: 250px;
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
 }
 
-.tel {
+.img-logo {
+  width: 200px;
+}
+
+.menu {
   display: inline-block;
   width: 75%;
   text-align: right;
@@ -138,68 +129,33 @@ table {
   transform: translateY(-50%);
 }
 
+
 .main-menu {
-  background-color: #000;
-  text-align: center;
-  padding: 10px 0;
-}
-
-.menu-item li a {
-  font-size: 14px;
-  color: #fff;
-  font-family: "arial";
-  transition: color 400ms linear;
-}
-
-.menu-item li a:hover {
-  color: red;
-  transition: color 400ms linear;
-}
-
-.menu-item {
-  display: inline-block;
-}
-
-.menu-item li {
-  display: inline-block;
-  padding-right: 10px;
-}
-
-.menu-item li:last-child {
-  padding-right: 0px;
-}
-
-/* section one */
-.one {
-  letter-spacing: -5px;
-  font-size: 0px;
-  padding-top: 25px;
-}
-
-.h1 {
+  color: #ffffff;
+  font-size: 20px;
+ 
   text-transform: uppercase;
-  font-size: 24px;
-  color: #000;
-  font-family: 'Arial';
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 25px;
 }
 
-.text {
 
-  font-size: 16px;
-  color: #000;
-  font-family: 'Arial';
+    
+
+
+.Wiki{
+   padding-left: 50%;
+   padding-top: 30%;
+   font-size:40px;
+   color: black;
+   width: auto;
+  
+
+  
 
 }
 
-.left {
-  width: 50%;
-  display: inline-block;
-  vertical-align: top;
-  padding-left: 25px;
-}
 
-.right {
-  width: 50%;
-  display: inline-block;
-  padding-right: 25px;
-}
+
+
