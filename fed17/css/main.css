@@ -235,7 +235,7 @@ header {
   color:  #ffffff;
   width: auto;
   }
-.maps{
+/*.maps{
   display: inline-block;
 padding-left: 33%;
 padding-top: 10%;
@@ -248,11 +248,36 @@ padding-top: 10%;
   padding-top: 70%;
   padding-right: 350px;
 }
+*/
 
 
+.maspsfb{
+  position: relative;
+  height: 900px;
+
+}
+.goo{
+ 
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  
+
+}
+.fb{
+  
+  display: inline-block;
+  position: absolute;
+  right: 20;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  
 
 
-
+}
 
 
 
