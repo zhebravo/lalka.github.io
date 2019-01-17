@@ -236,12 +236,14 @@ header {
   width: auto;
   }
 .maps{
-padding-left: 50%;
+  display: inline-block;
+padding-left: 33%;
 padding-top: 10%;
 
 
 }
 .facebook{
+  display: inline-block;
   padding-left: 50%;
   padding-top: 70%;
 }
