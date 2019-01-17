@@ -252,21 +252,31 @@ padding-top: 10%;
 
 
 .maspsfb{
-  position: relative;   
+  position: relative; 
+  padding-top: 20%;  
     
 
 }
 .goo{
+ 
+display: inline-block;
  width: 50%;
-  display: inline-block;
-   vertical-align: top;
-  padding-right: 25px;
+
+  padding-left: 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  
 }
 .fb{
-  
-   width: 50%;
-  display: inline-block;
+  display: inline-block; 
+  width: 50%; 
   padding-right: 25px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+ 
+
 }
 
 
