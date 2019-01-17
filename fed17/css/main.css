@@ -253,10 +253,10 @@ padding-top: 10%;
 
 .maspsfb{
   position: relative;
-  height: 900px;
+  height: 100%;
 
 }
-/*.goo{
+.goo{
  
   display: inline-block;
   position: absolute;
@@ -265,8 +265,8 @@ padding-top: 10%;
   transform: translateY(-50%);
   
 
-}*/
-/*.fb{
+}
+.fb{
   
   display: inline-block;
   position: absolute;
@@ -276,7 +276,7 @@ padding-top: 10%;
   
 
 
-}*/
+}
 
 
 
