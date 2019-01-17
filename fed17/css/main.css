@@ -146,17 +146,98 @@ header {
 
 .Wiki{
    padding-left: 70%;
-   padding-top: 30%;
-   font-size:40px;
+   padding-top: 25%;
+   font-size:80px;
    color:  #ffffff;
    width: auto;
   }
 
-main{  background: url(../img/tabl.png) no-repeat center; 
-   
-     height: 300px; 
+.fon {  background: url(../img/tabl.png) no-repeat center ;  
+      padding-top: 20%;
+    }
+
+/* section */
+
+
+#services {
+  padding-bottom: 120px;
+  padding-top: 5%;
 
 }
+.container {
+  width: 930px;
+  margin: 0 auto;
+}
+.title {
+  padding-top: 115px;
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  color: #2F3E0A;
+}
+
+.title p {
+  color: #777777;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.services {
+  margin-top: 80px;
+}
+
+.services__item {
+  width: 270px;
+  float: left;
+  text-align: center;
+}
+
+.services__item h3 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #2F3E0A;
+}
+
+.services__item p {
+  color: #777777;
+  font-size: 18px;
+  line-height: 1.55em;
+}
+
+.services__item:last-child {
+  float: right;
+}
+
+.services__item:nth-child(2) {
+  margin-left: 60px;
+}
+
+
+
+
+.doctor{
+  background: url(../img/doctor.png) no-repeat center ; 
+  background-size: 100%;
+  height: 120vh;
+
+}
+
+.textdoctor{
+  padding-left: 60%;
+  padding-top: 18%;
+  font-size:50px;
+  color:  #ffffff;
+  width: auto;
+  }
+
+
+
 
 
 .facebook{
