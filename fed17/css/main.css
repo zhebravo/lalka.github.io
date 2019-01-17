@@ -235,9 +235,15 @@ header {
   color:  #ffffff;
   width: auto;
   }
+.maps{
+padding-left: 33%;
+padding-top: 10%;
 
+
+}
 .facebook{
-   transform: translateY(-50%)
+  padding-left: 33%;
+  padding-top: 10%;
 }
 
 
