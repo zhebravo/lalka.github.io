@@ -257,21 +257,16 @@ padding-top: 10%;
 
 }
 .goo{
- 
+ width: 50%;
   display: inline-block;
- 
-  left: 0;
-  top: 50%;
-  padding-top: 50%;
-  transform: translateY(-50%); 
+   vertical-align: top;
+  padding-right: 25px;
 }
 .fb{
   
+   width: 50%;
   display: inline-block;
- 
-  right: 20;
-  transform: translateY(-50%);
-
+  padding-right: 25px;
 }
 
 
