@@ -236,13 +236,13 @@ header {
   width: auto;
   }
 
-
-
-
-
-footer {
-	text-align: center;
+.facebook{
+   transform: translateY(-50%)
 }
+
+
+
+
 
 
 
