@@ -235,20 +235,6 @@ header {
   color:  #ffffff;
   width: auto;
   }
-/*.maps{
-  display: inline-block;
-padding-left: 33%;
-padding-top: 10%;
-
-
-}
-.facebook{
-  display: inline-block;
-  padding-left: 50%;
-  padding-top: 70%;
-  padding-right: 350px;
-}
-*/
 
 
 .maspsfb{
@@ -271,29 +257,21 @@ padding-top: 10%;
 }
 .goo{
  
-/*  display: inline-block;*/
+
  
   text-align: right;
   padding-right: 50px;
   position: absolute;
   right: 25%;
   top: 340%;
-  /*transform: translateY(-50%);*/
+
   
 }
-/*.fb{
+.fb{
   display: inline-block; 
   width: 50%; 
-  padding-right: 25px;
+ top:270px;
   position: absolute;
-  right: 0;
-  top: 50%;
- 
-
-}*/
-
-
-.vidguku{
-/*  position: relative; 
-  padding-top: 50px;*/ 
+  right: 10%;
 }
+
