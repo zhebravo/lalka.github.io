@@ -253,9 +253,20 @@ padding-top: 10%;
 
 .maspsfb{
   position: relative; 
-  padding-top: 20%;  
+  padding-top: 115px;  
     
 
+}
+
+
+.contact-street{
+    font-size: 20px;
+  font-weight: bold;
+  left:  25%;
+  text-transform: uppercase;
+  margin: 0;
+  color: #2F3E0A;
+  padding-top: 115px;
 }
 .goo{
  
@@ -263,14 +274,14 @@ display: inline-block;
  width: 50%;
   padding-left: 25px;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
   
 }
 .fb{
   display: inline-block; 
   width: 50%; 
-  padding-right: 25px;
+  padding-right: 50px;
   position: absolute;
   right: 0;
   top: 50%;
@@ -279,4 +290,6 @@ display: inline-block;
 }
 
 
-
+.vidguku{
+ padding-top: 5%;
+}
