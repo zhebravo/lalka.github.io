@@ -262,34 +262,38 @@ padding-top: 10%;
 .contact-street{
     font-size: 20px;
   font-weight: bold;
-  left:  25%;
+  left:  10%;
   text-transform: uppercase;
+  padding-top: 200px;
   margin: 0;
   color: #2F3E0A;
-  padding-top: 115px;
+
 }
 .goo{
  
-display: inline-block;
- width: 50%;
-  padding-left: 25px;
+/*  display: inline-block;*/
+ 
+  text-align: right;
+  padding-right: 50px;
   position: absolute;
-  right: 0;
-  top: 50%;
+  right: 25%;
+  top: 340%;
+  /*transform: translateY(-50%);*/
   
 }
-.fb{
+/*.fb{
   display: inline-block; 
   width: 50%; 
-  padding-right: 50px;
+  padding-right: 25px;
   position: absolute;
   right: 0;
   top: 50%;
  
 
-}
+}*/
 
 
 .vidguku{
- padding-top: 5%;
+/*  position: relative; 
+  padding-top: 50px;*/ 
 }
